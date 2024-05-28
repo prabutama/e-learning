@@ -1,0 +1,27 @@
+{
+    "name": "prabutama/e-learning",
+    "type": "project",
+    "authors": [
+        {
+            "name": "prabutama",
+            "email": "isaprabutama@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "prabutama\\e_learning\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "prabutama\\e_learning\\tests\\": "tests/"
+        }
+    }
+}
